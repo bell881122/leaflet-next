@@ -1,5 +1,7 @@
-export default function Home() {
+import Map from '../components/Map';
+
+export default function Index() {
   return (
-    <h1>Home</h1>
+    <Map />
   )
 }
